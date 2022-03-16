@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title> Login | Redstore</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+   body{
+       margin:0;
+       padding:0;
+       background:green;
+       color: black;       font-family:OpenSans-Light;
+       font-size:16px;
+       }
+   a{
+       text-decoration:none;
+       color:blue;
+       }
+   .sign-up-form h1{
+      color: green;
+      margin-bottom:30px;
+      text-align:center;
+      padding:10px;
+      font-size:26px;
+      font-weight:bold; 
+          }
+.sign-in-form {
+          background:white;
+          width:300px;
+          padding:26px;
+          display:block;
+          margin:10% auto;
+          text-align: center;
+          }
+   .input-box {
+       border-radius:25px;
+       width:100%;
+       height:33px;
+       margin:8px auto;
+       border-color:black ;
+       outline:none;
+       padding:7px;
+       }
+.sign-in-btn{
+    text-align:center;
+    width:100%;
+    color:white;
+    background:#228B22;
+    padding:10px;
+    border:none;
+    border-radius:25px;
+    font-weight:bolder;
+    font-size:18px;
+    outline:none;
+    margin-top:14px;
+    }
+.sign-up-btn {
+    text-align:center;
+    width:100%;
+    color:black;
+    background:white;
+    padding:10px;
+    border-color: black;
+    border-radius:25px;
+    font-weight:bold;
+    font-size:16px;
+    outline:none;
+    margin-top:14px;
+    }
+ 
+ .sign-up-btn img {
+     width:26px;
+     height:26px;
+     margin-bottom:-6px;
+ }
+    .checkbox{
+        float:left;
+        }
+    hr{
+        margin-top:20px;
+        width:80%;
+        }
+.or{
+    color:black;
+    font-size:20px;
+    font-weight:bolder; 
+    width:50px;
+    margin: -19px auto 10px;
+  }
+   </style>
+</head>
+<body>
+<div class="sign-in-form">
+<h3> Sign In to VideoStore </h3>
+<form method="post"action="#">
+<input type="email"placeholder="  Email Address"class="input-box"required>
+<input type="password"placeholder="  Password"name="password"class="input-box"required>
+<button type="submit"class="sign-in-btn">Login</button>
+<p style="font-weight:bold;">OR</p>
+<button type="submit"class="sign-up-btn"><img src="content://media/external/downloads/8224"></img> Continue with Google</button>
+<p>Do you have an account ? <a href="signup.html">Sign Up</a></p>
+</form>
+</div>
+</div>
+</body>
+</html>
